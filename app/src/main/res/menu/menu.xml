@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/lineShape"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/lineShape"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/triangleShape"
+        android:icon="@drawable/baseline_change_history_black_18dp"
+        android:title="@string/triangleShape"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/circleShape"
+        android:icon="@drawable/baseline_panorama_fish_eye_black_18dp"
+        android:title="@string/circleShape"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/rectangleShape"
+        android:icon="@drawable/baseline_crop_din_black_18dp"
+        android:title="@string/rectangleShape"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/colorId"
+        android:icon="@drawable/baseline_color_lens_black_18dp"
+        android:title="@string/Color"
+        app:showAsAction="always|never" />
+    <item
+        android:id="@+id/saveId"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/Save" />
+    <item
+        android:id="@+id/clearId"
+        android:title="@string/clear" />
+    <item
+        android:title="Load"
+        android:id="@+id/new_btn" />
+    <item
+        android:id="@+id/lineWidh"
+        android:icon="@drawable/baseline_brush_black_18dp"
+        android:title="@string/lineWidth"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/eraceId"
+        android:icon="@android:drawable/ic_notification_clear_all"
+        android:title="@string/erase"
+        app:showAsAction="always" />
+</menu>
